@@ -1,8 +1,9 @@
 # cordova-plugin-camera-permission-ios
-Simple cordova plugin for access check to the camera roll or picture gallery
+Simple cordova plugin for access check to the camera authorization
 
 # Usage
 
+```javascript
 window.cordova.plugins.CameraPermission.checkAuthorization(
   function() {
     // Authorized
@@ -11,6 +12,7 @@ window.cordova.plugins.CameraPermission.checkAuthorization(
     // Unauthorization
   }
 );
+```
 
 ## License
 
