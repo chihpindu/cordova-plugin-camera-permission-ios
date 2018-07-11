@@ -8,7 +8,7 @@ var cameraPermission = function() {};
 *	success - success callback
 *	fail - error callback
 */
-cameraPermission.checkAuthorization = function(success, fail) {
+cameraPermission.prototype.checkAuthorization = function(success, fail) {
   if (device.platform.toLowerCase() != 'ios') {
     success();
     return;

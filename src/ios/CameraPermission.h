@@ -1,5 +1,5 @@
 //
-//  CameraPermisstion.h
+//  CameraPermission.h
 //
 
 #import <Cordova/CDVPlugin.h>
