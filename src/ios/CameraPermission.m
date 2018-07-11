@@ -1,10 +1,10 @@
 //
-//  CameraPermisstion.m
+//  CameraPermission.m
 //
 
-#import "CameraPermisstion.h"
+#import "CameraPermission.h"
 
-@implementation CameraPermisstion
+@implementation CameraPermission
 
 @synthesize callbackId;
 

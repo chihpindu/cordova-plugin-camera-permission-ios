@@ -5,7 +5,7 @@
 #import <Cordova/CDVPlugin.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface CameraPermisstion : CDVPlugin
+@interface CameraPermission : CDVPlugin
 
 @property (copy)   NSString* callbackId;
 
