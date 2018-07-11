@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+      id="cordova-plugin-camera-permission-ios"
+      version="0.0.1">
+
+    <name>CameraPermission.ios</name>
+    <description>Check Permission of camera on a device</description>
+    <license>MIT</license>
+    <keywords>picture, access</keywords>
+
+    <js-module src="www/CameraPermission.js" name="CameraPermission">
+      <clobbers target="CameraPermission" />
+      <clobbers target="cordova.plugin.camera.permission.ios"/>
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CameraPermission">
+                <param name="ios-package" value="CameraPermission" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CameraPermission.h" />
+        <source-file src="src/ios/CameraPermission.m" />
+    </platform>
+
+</plugin>
