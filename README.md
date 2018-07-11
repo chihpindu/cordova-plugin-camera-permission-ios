@@ -1,4 +1,4 @@
-# cordova-picture-access
+# cordova-plugin-camera-permission-ios
 Simple cordova plugin for access check to the camera roll or picture gallery
 
 # Usage
