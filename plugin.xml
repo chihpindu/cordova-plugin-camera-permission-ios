@@ -12,7 +12,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
     <js-module src="www/CameraPermission.js" name="CameraPermission">
       <clobbers target="CameraPermission" />
-      <clobbers target="cordova.plugin.camera.permission.ios"/>
+      <clobbers target="cordova.plugin.CameraPermission"/>
     </js-module>
 
     <!-- ios -->
