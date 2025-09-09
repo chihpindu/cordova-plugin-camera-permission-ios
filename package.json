@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-camera-permission-ios",
+  "version": "1.0.1",
+  "description": "Simple cordova plugin for access check to the camera authorization",
+  "cordova": {
+    "id": "cordova-plugin-camera-permission-ios",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chihpindu/cordova-plugin-camera-permission-ios.git"
+  },
+  "keywords": [
+    "cordova",
+    "camera",
+    "permission",
+    "ios"
+  ],
+  "author": "chihpindu (https://chihpindu.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chihpindu/cordova-plugin-camera-permission-ios/issues"
+  },
+  "homepage": "https://github.com/chihpindu/cordova-plugin-camera-permission-ios"
+}
